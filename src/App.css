@@ -1,0 +1,54 @@
+@import-normalize;
+
+
+.App {
+  /* height: 100vh;
+  background-color: transparent !important; */
+}
+.MainDiv{
+  margin: 40px;
+}
+.ChartCard {
+  box-shadow: 0 4px 15px 1px rgba(138, 138, 138, 0.15);
+  height: 450px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 6px;
+
+}
+.TabItem {
+  padding: 10px 0px 10px 10px;
+  color: #7c738f;
+  font-size: 10px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  border-bottom-style: solid;
+  border-color: #3a2a5d;
+  text-align: right;
+  border-width: 2px;
+}
+.TabItem:hover {
+  border-color: #5e41a6;
+  color: white;
+}
+#hero {
+  position: relative;
+  background-color: rgba(41,128,185 ,0.6);
+}
+.fullscreen-bg {
+  position: fixed;
+  /* top: 0; */
+  right: 0;
+  left: 30;
+  bottom: 0;
+  /* bottom: 0;
+  left: 0;
+  overflow: hidden; */
+  z-index: -100;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
